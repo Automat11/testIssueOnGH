@@ -34,7 +34,6 @@ public class TestNewIssueOnGH extends TestBaseR {
 		
 		ipage.addNewComment(COMMENT);
 		
-		
 		ipage.deleteFirstComment();
 		
 		ipage.assignProjectToYourself();
