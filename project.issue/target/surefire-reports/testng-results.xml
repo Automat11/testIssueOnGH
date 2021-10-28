@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="13608" started-at="2021-10-28T21:23:23 CEST" finished-at="2021-10-28T21:23:36 CEST">
+  <suite name="Command line suite" duration-ms="14810" started-at="2021-10-28T21:39:50 CEST" finished-at="2021-10-28T21:40:05 CEST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="13608" started-at="2021-10-28T21:23:23 CEST" finished-at="2021-10-28T21:23:36 CEST">
+    <test name="Command line test" duration-ms="14810" started-at="2021-10-28T21:39:50 CEST" finished-at="2021-10-28T21:40:05 CEST">
       <class name="com.project.issue.TestNewIssueOnGH">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.project.issue.TestNewIssueOnGH@3b0143d3]" name="invokeBrowser" is-config="true" duration-ms="3278" started-at="2021-10-28T21:23:23 CEST" finished-at="2021-10-28T21:23:26 CEST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.project.issue.TestNewIssueOnGH@3b0143d3]" name="invokeBrowser" is-config="true" duration-ms="3860" started-at="2021-10-28T21:39:50 CEST" finished-at="2021-10-28T21:39:54 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="getTitleTest()[pri:0, instance:com.project.issue.TestNewIssueOnGH@3b0143d3]" name="getTitleTest" duration-ms="9707" started-at="2021-10-28T21:23:26 CEST" finished-at="2021-10-28T21:23:36 CEST">
+        <test-method status="PASS" signature="testNewIssueOnGH()[pri:0, instance:com.project.issue.TestNewIssueOnGH@3b0143d3]" name="testNewIssueOnGH" duration-ms="10336" started-at="2021-10-28T21:39:54 CEST" finished-at="2021-10-28T21:40:04 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.issue.TestNewIssueOnGH@3b0143d3]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-10-28T21:23:36 CEST" finished-at="2021-10-28T21:23:36 CEST">
+        </test-method> <!-- testNewIssueOnGH -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.issue.TestNewIssueOnGH@3b0143d3]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-10-28T21:40:04 CEST" finished-at="2021-10-28T21:40:05 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

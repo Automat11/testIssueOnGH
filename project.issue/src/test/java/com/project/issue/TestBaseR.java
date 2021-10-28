@@ -7,6 +7,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+/* Klasa <TestBaseR> jest klasą z adnotacjami do wykonania przed i po teście. 
+ * Zawieta elementy konfiguracyjne takie jak:
+ * A) Przed:
+ *  wskazanie webdrivera, wywołaniu adresu 
+ * przeglądarki, usunięciu ciasteczek z przeglądarki, maksymalizacja okna,
+ * ustawienie globalnego czasu na oczekiwanie na element, oraz czasu na załadowanie się strony.
+ * B) Po:
+ *  zamknięcie przeglądarki i bezpiecznie kończy sesje 
+ * 
+ */
+
 public class TestBaseR {
 
 	protected WebDriver driver;

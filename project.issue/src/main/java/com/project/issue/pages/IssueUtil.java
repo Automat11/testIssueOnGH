@@ -5,6 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/* Klasa <IssueUtil> jest klasą zawierającą uniwersalne lokatory oraz metody 
+ * do klasy testowej i pozostałych klas. 
+ * 
+ */
+
 public class IssueUtil {
 
 	protected WebDriver driver;

@@ -3,6 +3,11 @@ package com.project.issue.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/*
+ * Klasa <IssuesPage> jest klasą strony po przejściu do zakładki 'Issue'. Zawiera lokatory na danej stronie
+ * oraz metody na niej wywoływane. 
+ */
+
 public class IssuesPage extends IssueUtil {
 
 	

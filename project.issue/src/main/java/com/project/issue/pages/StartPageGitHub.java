@@ -2,6 +2,7 @@ package com.project.issue.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class StartPageGitHub extends IssueUtil {
 
@@ -23,12 +24,17 @@ public class StartPageGitHub extends IssueUtil {
 	
 	// logowanie
 	public void logIn (String username, String pass) {
-		// asercja na strone główną
+		// asercja na strone główną -- wyjątkowo przed
+		String expectedTitle = "GitHub: Where the world builds software · GitHub";
+        String originalTitle = driver.getTitle();
+        Assert.assertEquals(originalTitle, expectedTitle);
+        System.out.println("Stona");
+        // log
 		clickElement(SIGN_IN_BUTTON);
 		sendText(INPUT_USERNAME_LOGIN, username);
 		sendText(INPUT_PASS_LOGIN, pass);
 		clickElement(BUTTON_SUBMIT);
-		System.out.println("Logowanie do strony");
+		// asercja na stronę po zalogowaniu
 	}
 	
 

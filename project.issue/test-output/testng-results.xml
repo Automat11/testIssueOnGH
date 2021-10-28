@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15444" started-at="2021-10-28T19:18:21Z" finished-at="2021-10-28T19:18:36Z">
+  <suite name="Suite" duration-ms="15822" started-at="2021-10-28T19:45:28Z" finished-at="2021-10-28T19:45:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15444" started-at="2021-10-28T19:18:21Z" finished-at="2021-10-28T19:18:36Z">
+    <test name="Default test" duration-ms="15822" started-at="2021-10-28T19:45:28Z" finished-at="2021-10-28T19:45:44Z">
       <class name="com.project.issue.TestNewIssueOnGH">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.project.issue.TestNewIssueOnGH@63e2203c]" name="invokeBrowser" is-config="true" duration-ms="3324" started-at="2021-10-28T21:18:21Z" finished-at="2021-10-28T21:18:24Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.project.issue.TestNewIssueOnGH@63e2203c]" name="invokeBrowser" is-config="true" duration-ms="4059" started-at="2021-10-28T21:45:28Z" finished-at="2021-10-28T21:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="getTitleTest()[pri:0, instance:com.project.issue.TestNewIssueOnGH@63e2203c]" name="getTitleTest" duration-ms="11517" started-at="2021-10-28T21:18:24Z" finished-at="2021-10-28T21:18:36Z">
+        <test-method status="PASS" signature="testNewIssueOnGH()[pri:0, instance:com.project.issue.TestNewIssueOnGH@63e2203c]" name="testNewIssueOnGH" duration-ms="11150" started-at="2021-10-28T21:45:32Z" finished-at="2021-10-28T21:45:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.issue.TestNewIssueOnGH@63e2203c]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-10-28T21:18:36Z" finished-at="2021-10-28T21:18:36Z">
+        </test-method> <!-- testNewIssueOnGH -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.issue.TestNewIssueOnGH@63e2203c]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-10-28T21:45:43Z" finished-at="2021-10-28T21:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

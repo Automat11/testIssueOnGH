@@ -3,6 +3,11 @@ package com.project.issue.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/*
+ * Klasa <MainPage> jest klasą strony głównej wywołanej z adresu. Zawiera lokatory na danej stronie
+ * oraz metody na niej wywoływane. 
+ */
+
 public class MainPage extends IssueUtil {
 
 	
