@@ -6,7 +6,7 @@ import com.project.issue.pages.IssuesPage;
 import com.project.issue.pages.MainPage;
 import com.project.issue.pages.StartPageGitHub;
 
-public class TestFirst extends TestBaseR {
+public class TestNewIssueOnGH extends TestBaseR {
 	
 
 	@Test	
