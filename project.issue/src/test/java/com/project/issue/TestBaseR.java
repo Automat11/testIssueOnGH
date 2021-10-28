@@ -20,7 +20,8 @@ public class TestBaseR {
 	@BeforeMethod
 	public void invokeBrowser() {
 		
-		System.setProperty("webdrive r.chrome.driver", "C:\\WebDrivers\\chromedriver.exe");
+		String path = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver", path+"\\WebDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();

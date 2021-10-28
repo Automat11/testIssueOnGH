@@ -40,10 +40,5 @@ public class TestNewIssueOnGH extends TestBaseR {
 		ipage.assignProjectToYourself();
 		
 		menu.logOut();
-		
-		
-		
-		Thread.sleep(10000);
-		
 	}
 }

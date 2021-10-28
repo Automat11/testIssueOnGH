@@ -10,7 +10,6 @@ public class IssueUtil {
 
 	protected WebDriver driver;
 	
-	Logger log = Logger.getRootLogger();
 	
 	// konstruktor
 	public IssueUtil(WebDriver driver) {
@@ -21,7 +20,6 @@ public class IssueUtil {
 	public void waitUntilElementIsClickable (By locator, int time, WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
-		log.info("Czeka na element");
 	}
 	
 	
